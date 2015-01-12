@@ -38,7 +38,7 @@ module i3v_base(){
 
 linear_extrude(height=wood_thickness){
 	difference(){
-		translate([-100, -15]) square([500, 500]);
+		translate([-100, -15]) square([505, 490]);
 		i3v_base();
 	}
 }
